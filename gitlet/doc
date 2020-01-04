@@ -1,0 +1,32 @@
+Git - version control
+Working Directory:
+Staging Area: Staged for addition, Staged for removal
+Commits:
+Blobs: Blob 0 (what is read in Hello.txt)
+Trying to track the versions of the files, not the file name
+
+Adding: staging file for addition (or removal)
+
+
+Init: initialize a directory, a file
+Add: adds files to the staging area
+
+Super Class: Working Directory
+Subclasses: Staging Area, Commits, Blobs
+
+Instance Variables: variables that hold the hashcodes
+Methods: Hash Function (using Sha1),
+
+Staging area and the commit area are things that exist in the repository
+When you initialize in the repository, there is a hidden gitlet folder that holds everything for gitlet program
+Commit area is the commit tree, represents the snapshots of everything taken of the working directory
+Working directory is the joint commit leaf
+
+
+Trees commit of commits nodes would be commits
+
+Not tree!
+Just some structure in a “commit” class that includes the ability to…
+Just have a pointer or access to its parent (previous commit), and contains its current commit
+And then a method should be a hash function
+And an instance variable should be holding the hash function output variable (maybe the commit message - like the byte array) for reference and maybe its parent’s byte array too

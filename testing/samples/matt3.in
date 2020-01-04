@@ -1,0 +1,6 @@
+> init
+<<<
++ f.txt wug.txt ( f.txt contains "This is a ")
++f.txt heckyeah.txt (f.txt now contains "heckyeah")
+-f.txt
+* f.txt
