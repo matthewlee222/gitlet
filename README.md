@@ -1,6 +1,6 @@
 # Gitlet
 
-This project implements a version-control system that mimics some of the basic features of the popular system Git.
+This project creates a version-control system that mimics some of the basic features of the popular system Git.
 
 A version-control system is essentially a backup system for related collections of files. The main functionality that Gitlet supports includes:
 
