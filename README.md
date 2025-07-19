@@ -1,11 +1,11 @@
 # Gitlet
 
-This project creates a version-control system that mimics some of the basic features of the popular system Git.
+This project implements a simplified version control system that replicates several core features of Git.
 
-A version-control system is essentially a backup system for related collections of files. The main functionality that Gitlet supports is:
+A version control system is essentially a backup and tracking system for collections of related files. Gitlet supports the following key functionalities:
 
-- Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
-- Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
-- Viewing the history of your backups. In Gitlet, you view this history in something called the log.
-- Maintaining related sequences of commits, called branches.
-- Merging changes made in one branch into another.
+- Committing: Saves the contents of entire directories. Each snapshot is referred to as a commit.
+- Checking Out: Restores a version of one or more files, or an entire commit.
+- Logging: Displays the history of commits to help track changes over time.
+- Branching: Maintains multiple lines of development through branches.
+- Merging: Combines changes from one branch into another.
